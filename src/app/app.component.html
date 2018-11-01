@@ -1,0 +1,7 @@
+<div *ngFor="let data of jsonData | namePipe">
+ <p>id: {{data.id}}</p>
+ <p>firstName: {{data.first_name}}</p>
+ <p>lastName: {{data.last_name}}</p>
+ <p><img [src]="data.avatar"/></p>
+</div>
+
